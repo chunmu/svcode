@@ -28,4 +28,8 @@
 
 import './workbench/workbench.main.css';
 
-console.log('👋 This message is being logged by "renderer.ts", included via Vite');
+const { versions } = window;
+console.log(versions);
+
+// 打标 开始renderer
+performance.mark('code/didStartRenderer');
