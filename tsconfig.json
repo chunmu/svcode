@@ -10,6 +10,11 @@
     "baseUrl": ".",
     "outDir": "dist",
     "moduleResolution": "node",
-    "resolveJsonModule": true
+    "resolveJsonModule": true,
+    "paths": {
+      "@i18n": ["./src/i18n/index.ts"],
+      "@workbench": ["./src/workbench/index.ts"],
+      "@electron-sandbox/*": ["./src/electron-sandbox/*"]
+    }
   }
 }

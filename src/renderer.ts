@@ -28,8 +28,5 @@
 
 import './workbench/workbench.main.css';
 
-const { versions } = window;
-console.log(versions);
-
 // 打标 开始renderer
 performance.mark('code/didStartRenderer');
